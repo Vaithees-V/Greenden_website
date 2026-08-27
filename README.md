@@ -22,18 +22,18 @@ The project provides a clean and simple interface for exploring plants and plant
 📂 Project Structure
 
 Greenden/
-│
-├── images/
-├── src/
+
+ images/
+ src/
 │   ├── input.css
 │   └── output.css
 │
-├── index.html
-├── product.html
-├── contact.html
-├── package.json
-├── package-lock.json
-└── .gitignore
+ index.html
+ product.html
+ contact.html
+ package.json
+ package-lock.json
+ .gitignore
 
 🚀 Getting Started
 
