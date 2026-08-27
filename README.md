@@ -39,7 +39,7 @@ Greenden/
 
 1. Clone the repository
 
-git clone <your-repository-url>
+git clone <https://github.com/Vaithees-V/Greenden_website.git>
 
 2. Open the project
 
