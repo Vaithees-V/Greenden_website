@@ -1,71 +1,77 @@
-🌿 Greenden
+# 🌿 Greenden
 
-Greenden is a responsive plant website built using HTML and Tailwind CSS.
+Greenden is a responsive plant website built using **HTML and Tailwind CSS**.
 The project provides a clean and simple interface for exploring plants and plant-related products.
 
-✨ Features
+## ✨ Features
 
-- 🌱 Responsive navigation bar
-- 🪴 Product and plant sections
-- 🖼️ Image-based product display
-- 📱 Responsive design for different screen sizes
-- 📄 Multiple pages such as Home, Products and Contact
-- 🎨 Styled using Tailwind CSS
+* 🌱 Responsive navigation bar
+* 🪴 Product and plant sections
+* 🖼️ Image-based product display
+* 📱 Responsive design for different screen sizes
+* 📄 Multiple pages such as Home, Products and Contact
+* 🎨 Styled using Tailwind CSS
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
-- HTML5
-- Tailwind CSS
-- CSS
-- Git & GitHub
+* HTML5
+* Tailwind CSS
+* CSS
+* Git & GitHub
 
-📂 Project Structure
+## 📂 Project Structure
 
+```text
 Greenden/
-
- images/
- src/
+│
+├── images/
+├── src/
 │   ├── input.css
 │   └── output.css
 │
- index.html
- product.html
- contact.html
- package.json
- package-lock.json
- .gitignore
+├── index.html
+├── product.html
+├── contact.html
+├── package.json
+├── package-lock.json
+└── .gitignore
+```
 
-🚀 Getting Started
+## 🚀 Getting Started
 
-1. Clone the repository
+### 1. Clone the repository
 
-git clone <https://github.com/Vaithees-V/Greenden_website.git>
+```bash
+git clone <your-repository-url>
+```
 
-2. Open the project
+### 2. Open the project
 
 Open the project folder in Visual Studio Code.
 
-3. Install dependencies
+### 3. Install dependencies
 
+```bash
 npm install
+```
 
-4. Run the project
+### 4. Run the project
 
-Open "index.html" using Live Server or your preferred browser.
+Open `index.html` using **Live Server** or your preferred browser.
 
-📸 Pages
+## 📸 Pages
 
-- Home – Introduction and featured plants
-- Products – Displays available plants/products
-- Contact – Contact information and form
+* **Home** – Introduction and featured plants
+* **Products** – Displays available plants/products
+* **Contact** – Contact information and form
 
-🎯 Project Purpose
+## 🎯 Project Purpose
 
-This project was created to practice responsive web design, HTML structure, Tailwind CSS styling, and multi-page website development.
+This project was created to practice **responsive web design, HTML structure, Tailwind CSS styling, and multi-page website development**.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Vaithees
+**Vaithees**
 
 ---
 
