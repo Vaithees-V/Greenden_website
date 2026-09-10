@@ -14,23 +14,50 @@
     <nav class="bg-green-300 p-3 flex items-center justify-between shadow-2xl sticky top-0">
         <h1 class="text-3xl">Greenden</h1>
 
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-            class="size-6 md:hidden">
+        <svg onclick="showNavbar()" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" class="size-6 md:hidden">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
 
         <ul class="flex gap-5 text-white hidden md:flex">
             <li>
-                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+                <a class="hover:underline hover:text-black" href="./index.html">Home</a>
             </li>
             <li>
-                <a class="hover:underline hover:text-black" href="product.html">Products</a>
+                <a class="hover:underline hover:text-black" href="./product.html">Products</a>
             </li>
             <li>
-                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+                <a class="hover:underline hover:text-black" href="./contact.html">Contact</a>
             </li>
         </ul>
     </nav>
+
+    <!-- Side navbar -->
+    <section id="sidenav"
+    class="bg-green-300 hidden z-50"
+    style="position: fixed; top: 0; right:0; width: 50%; height: 100vh;">
+
+        <div class="text-right p-5">
+            <button onclick="closeNavbar()" class="text-2xl">
+                ✕
+            </button>
+        </div>
+
+        <ul class="flex flex-col gap-5 p-5 text-white">
+            <li>
+                <a class="hover:underline hover:text-black" href="./index.html">Home</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="./product.html">Products</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="./contact.html">Contact</a>
+            </li>
+        </ul>
+
+    </section>
 
     <!-- Header section -->
     <section class="bg-green-300 p-4 md:p-10 flex justify-center">
@@ -158,11 +185,14 @@
         <button class="bg-black text-white p-3 m-1 underline">Subscribe</button>
     </section>
     <!-- Footer -->
-     <section class="bg-green-300 p-10 mt-5">
+    <section class="bg-green-300 p-10 mt-5">
         <h1 class="text-3xl font-bold">Greenden</h1>
-        <p class="mt-5">Bring nature home with beautiful, fresh, and easy-to-care-for indoor plants that make every space greener and healthier.</p>
+        <p class="mt-5">Bring nature home with beautiful, fresh, and easy-to-care-for indoor plants that make every
+            space greener and healthier.</p>
         <p class="mt-5">@2026 Greenden.com</p>
-     </section>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
